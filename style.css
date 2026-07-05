@@ -1,0 +1,361 @@
+
+body {
+    text-align: center;
+    background-color: #d7d7d7;
+    font-family: arial;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    padding: 0 27px 0 20px;
+    padding-top: 20px;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+    padding-left: 18px;
+    gap: 1em;
+}
+
+nav ul a {
+   
+    text-decoration: none;
+    color: black;
+
+}
+
+nav ul button {
+    width: 225px;
+    font-size: 20px;
+    height: 43px;
+    color: #2f2d2d;
+    cursor: pointer;
+    border: none;
+    background-color: #d7d7d7;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.25);
+    transition: .5s;
+}
+
+nav ul button:hover {
+    background-color: #2f2d2d;
+    color: #d7d7d7;
+
+}
+
+hr {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+img {
+    max-width: 100%;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.25);
+    cursor: pointer;   
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 25px;
+}
+
+.showcase {
+   
+    text-align: left;
+    padding: 1rem 0;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.25);
+    margin: 0 35px;
+}
+
+.box {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 3rem;
+}
+
+.box-a {
+    align-self: center;
+}
+
+.showcase p {
+    font-size: 20px;
+}
+
+.links {
+    text-decoration: none;
+    color: var(--dark);
+    font-weight: bold;
+}
+
+.showcase img {
+  
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.25);
+}
+
+
+/* <!-- Techonology section --> */
+
+.techonology-section {
+    text-align: center;
+    background-color: #d7d7d7;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.25);
+    margin-left: 45px;
+    margin-top: 30px;
+    width: 95%;
+    height: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.techonology-section h2 {
+    padding-top: 15px;
+}
+
+.techonology-section ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding-top: 20px;
+    padding-right: 30px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.techonology-section button {
+    width: 110px;
+    height: 43px;
+    color: #2f2d2d;
+    background-color: #d7d7d7;
+    border: none;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    transition: .5s;
+
+}
+.techonology-section button:hover {
+    background-color: #2f2d2d;
+    color: #2f2d2d;
+}
+
+.techonology-section button:hover {
+    background-color: #2f2d2d;
+    color: #d7d7d7;
+}
+
+.project-section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 100%;
+    height: 100%;
+    /* padding: 0 50px; */
+   
+}
+
+.project-section h1 {
+    background-color: #d7d7d7;
+    /* box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.25); */
+    margin-top: 20px;
+    padding: 10px;
+    /* font-weight: 200; */
+    /* width: 92%; */
+    
+    margin-left: 20px; 
+}
+
+.project-section .project-div {
+    width: 100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.project-section .project-div .project {
+    width: 394px;
+    height: 394px;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.25);
+    background-color: #d7d7d7;
+
+}
+
+.project-text-box{
+    background-color: red;
+    width: 98%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: arial;
+    margin-left: 3px;
+    object-fit: cover;
+}
+
+.contect-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* text-align: center; */
+    background-color: #d7d7d7;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.25);
+    /* margin: 35px; */
+    margin-left: 35px;
+    margin-right: 20px;
+    margin-top: 30px;
+    width: 95%;
+    height: 500px;
+   
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contect-heading{
+    width: 95%;
+}
+
+.contect-section .contect-div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contect-section .contect-div form {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contect-section .contect-div form input {
+    height: 35px;
+    border: none;
+    border-radius: 7px;
+    background-color: white;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.25);
+    padding: 0 20px;
+}
+
+.contect-section .contect-div form textarea {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.25);
+}
+
+.contect-section .contect-div form button {
+    width: 100px;
+    height: 35px;
+    border: none;
+
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.25);
+    transition: .5s;
+}
+
+.contect-section .contect-div form button:hover {
+    background-color: #2f2d2d;
+    color: #d7d7d7;
+    cursor: pointer;
+}
+
+.contect-div label{
+    text-align: start;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2f2d2d;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.25);
+    margin-left: 38px;
+    margin-top: 30px;
+    width: 95%;
+    height: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer p {
+    color: white;
+}
+@media (max-width:700px) {
+
+    /* .about-section */
+
+    nav ul button {
+        width: 150px;
+    }
+
+    /* .techonology-section */
+    .techonology-section {
+        width: 100%;
+        height: 600px;
+        box-shadow: none;
+        margin: 0;
+        padding: 0%;
+    }
+
+    .techonology-section ul {
+        gap: 10px;
+        width: 100%;
+        height: 90%;
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 0%;
+    }
+    .project-section h1 {
+        width: 83%;
+    }
+
+    .techonology-section button {
+        width: 260px;
+        margin-bottom: 10px;
+
+    }
+
+    .techonology-section h2 {
+        margin-left: 20px;
+    }
+    
+    hr{
+        width: 100%;
+    }
+    .contect-section{
+       
+        width: 90%;
+        height: 600px;
+        box-shadow: none;
+        box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.25);
+
+    }
+    .contect-heading{
+        width: 90%;
+        /* padding: 0 20px; */
+    }
+    .contect-section form{
+        width: 400px; 
+        height: 100%;
+        margin: 0;
+        padding: 20px; 
+    }
+    footer{
+        width: 90%;
+        height: 100%;
+    }
+
+}
