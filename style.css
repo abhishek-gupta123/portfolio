@@ -311,7 +311,8 @@ footer p {
     /* .about-section */
 
     nav ul button {
-        width: 187px;
+        font-size: 15px;
+        width: 127px;
     }
 
     /* .techonology-section */
@@ -323,12 +324,12 @@ footer p {
     }
 
     .techonology-section ul {
-        justify-content: start;
+        justify-content: center;
         gap: 15px;
     }
 
     .techonology-section button {
-        width: 160px;
+        width: 250px;
     }
 
     .project-section h1 {
